@@ -269,6 +269,38 @@ endif
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => CoC
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:coc_global_extensions = [
+            \ "coc-clangd",
+            \ "coc-cmake",
+            \ "coc-css",
+            \ "coc-cssmodules",
+            \ "coc-eslint",
+            \ "coc-explorer",
+            \ "coc-fzf-preview",
+            \ "coc-git",
+            \ "coc-go",
+            \ "coc-highlight",
+            \ "coc-html",
+            \ "coc-java",
+            \ "coc-json",
+            \ "coc-lists",
+            \ "coc-markdownlint",
+            \ "coc-python",
+            \ "coc-rls",
+            \ "coc-rust-analyzer",
+            \ "coc-sh",
+            \ "coc-stylelintplus",
+            \ "coc-snippets",
+            \ "coc-spell-checker",
+            \ "coc-sql",
+            \ "coc-swagger",
+            \ "coc-tasks",
+            \ "coc-tsserver",
+            \ "coc-vimlsp",
+            \ "coc-xml",
+            \ "coc-yaml",
+            \ "coc-yank" ] 
+
 " TextEdit might fail if hidden is not set.
 set hidden
 
