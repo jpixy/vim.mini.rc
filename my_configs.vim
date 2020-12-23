@@ -6,3 +6,4 @@ endtry
 set background=dark
 
 set foldmethod=indent
+set number
